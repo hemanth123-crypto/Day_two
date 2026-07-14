@@ -1,0 +1,18 @@
+file=open('student.txt','r')
+data=file.read()
+print(data)
+file.close()
+
+file=open('student.txt','a+')
+file.write('this is a new line of text.\n')
+file.write('this is another line of text.\n')
+file.seek(1)
+file.read()
+data=file.read()
+print(data)
+file.close()
+
+file=open('student.txt','r')
+data=file.read()
+print(data) 
+file.close()
