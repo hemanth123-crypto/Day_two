@@ -1,0 +1,5 @@
+DATASTORE = {
+    "customers": {},
+    "memberships": {},
+    "accounts": {}
+}
