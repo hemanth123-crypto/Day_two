@@ -1,0 +1,41 @@
+{
+  "summary": {
+    "subscriber_count": 3,
+    "cdr_count": 6,
+    "anomaly_count": 1,
+    "unknown_subscriber_count": 1
+  },
+  "subscribers": [
+    {
+      "msisdn": "9876543210",
+      "plan_type": "postpaid",
+      "total_calls": 2,
+      "total_cost": 844.5,
+      "suspicious_calls": 1
+    },
+    {
+      "msisdn": "9812345678",
+      "plan_type": "prepaid",
+      "total_calls": 2,
+      "total_cost": 8.0,
+      "suspicious_calls": 0
+    },
+    {
+      "msisdn": "9800011122",
+      "plan_type": "postpaid",
+      "total_calls": 1,
+      "total_cost": 60.0,
+      "suspicious_calls": 0
+    }
+  ],
+  "anomalies": [
+    {
+      "type": "unknown_subscriber",
+      "msisdn": "9999999999",
+      "call_type": "domestic",
+      "duration_sec": 120,
+      "cost": 3.0,
+      "suspicious": false
+    }
+  ]
+}
