@@ -1,1 +1,0 @@
-"""BasicRAG FastAPI application package."""
